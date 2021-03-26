@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    /**************************************************************       
+               * FUNÇÃO SEM RETORNO
+         * 
+         * Geralmente, funções retornam um valor para quem as chama
+         * por meio da palavra-chave return. No entanto, existem funções
+         * que apenas desempenham uma tarefa, sem retornar valor algum.
+         * ************************************************************/
+         
+         // Declaração da função
+         function traco(tamanho) {
+             for(let i = 1; i <= tamanho; i++) {
+                 document.write('-')
+             }
+             document.write('<br>')    // Pula linha
+             // Note que, nesta função, não há a palavra-chave return
+         }
+         // Chamadas da função
+         traco(25)
+         traco(50)
+         traco(15)
+
+</body>
+</html>
