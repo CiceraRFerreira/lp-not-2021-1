@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Bruno</title>
+    <script>
+        // Faça um codigo que receba dois numeros que o usuario possa entrar, e mostre o resultado em uma função soma ***
+        // .
+        // || -> (ou) = representa que pode ser um ou outra 
+        // && -> (E) = representa que tem que ser as duas de uma vezes (ex: n1 e n2)
+        let n1, n2
+
+        do{
+            n1 = Number(prompt("Insira o primeiro numero"))
+            n2 = Number(prompt("Insira o segundo numero"))
+        } while (isNaN(n1)||isNaN(n2))
+        
+        function res(n1,n2){
+          let resultado = n1 + n2
+          return resultado
+        }
+        
+        alert("A soma do primeiro numero "+ n1 + " e o segundo numero " + n2 + " resultou nesse valor "+ res(n1,n2))
+        
+        //document.write('resultado ' + resultado)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
